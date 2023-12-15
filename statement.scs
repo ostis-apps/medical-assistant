@@ -1,0 +1,446 @@
+disease
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [болезнь]
+            (*<-lang_ru;;*);
+          [disease]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (болезнь)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/disease.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+disease=>nrel_inclusion:
+disease_of_anatomical_entity;;
+
+disease 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(болезнь)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://statement/disease.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+
+
+disease_of_anatomical_entity
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [заболевания анатомического образования]
+            (*<-lang_ru;;*);
+          [disease of anatomical entity]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (заболевания анатомического образования)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/disease_of_anatomical_entity.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+disease_of_anatomical_entity=>nrel_inclusion:
+gastrointestinal_system_disease;;
+disease_of_anatomical_entity<-anatomical_formations;;	
+
+anatomical_formations
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [анатомические образования]
+            (*<-lang_ru;;*);
+          [anatomical formations]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (анатомические образования)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/anatomical_formations.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+anatomical_formations=>nrel_inclusion:
+organ;
+organ_systems;
+tissue;;	
+
+anatomical_formations 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(анатомические образования)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://statement/anatomical_formations.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+organ
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [орган]
+            (*<-lang_ru;;*);
+          [organ]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (орган)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/organ.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+organ=>nrel_inclusion:
+esophagus; 
+stomach; 
+duodenum; 
+gallbladder; 
+liver; 
+pancreas;
+small_intestine; 
+caecum; 
+colon; 
+sigmoid_colon; 
+rectum;;
+
+organ_systems
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [система органов]
+            (*<-lang_ru;;*);
+          [organ systems]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (система органов)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/organ_systems.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+organ_systems=>nrel_inclusion:
+gastrointestinal_system;;
+
+tissue
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ткань]
+            (*<-lang_ru;;*);
+          [tissue]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ткань)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/tissue.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+
+
+gastrointestinal_system_disease
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [заболевания желудочно-кишечного тракта]
+            (*<-lang_ru;;*);
+          [gastrointestinal system disease]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (заболевания желудочно-кишечного тракта)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/gastrointestinal_system_disease.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+gastrointestinal_system_disease<-nrel_basic_decomposition:
+stomach_disease;;
+gastrointestinal_system_disease<-gastrointestinal_tract;;	
+
+
+gastrointestinal_tract
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [желудочно-кишечный тракт]
+            (*<-lang_ru;;*);
+          [gastrointestinal tract]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (желудочно-кишечный тракт)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/gastrointestinal_tract.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+gastrointestinal_tract<-nrel_basic_decomposition:
+esophagus; 
+stomach; 
+duodenum; 
+gallbladder; 
+liver; 
+pancreas;
+small_intestine; 
+caecum; 
+colon; 
+sigmoid_colon; 
+rectum;;
+
+
+stomach_disease
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [болезнь желудка]
+            (*<-lang_ru;;*);
+          [stomach disease]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (болезнь желудка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/stomach_disease.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+stomach_disease=>nrel_inclusion:
+gastritis;;
+stomach_disease<-stomach;;	
+
+
+gastritis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [гастрит]
+            (*<-lang_ru;;*);
+          [gastritis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гастрит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/gastritis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+gastritis<=nrel_subdividing:{
+type_A;
+type_B;
+type_C
+};;
+
+gastritis=>nrel_belonging:
+common_gastritis;
+hyperacid_gastritis;;
+
+gastritis 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(гастрит)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://statement/gastritis.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+gastritis=> nrel_symptom: 
+sore;;
+
+
+common_gastritis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [обычный гастрит]
+            (*<-lang_ru;;*);
+          [common gastritis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (обычный гастрит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/common_gastritis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+common_gastritis=> nrel_symptom: 
+sore;;
+
+common_gastritis=>causes_of_development:
+stress;;
+
+
+
+hyperacid_gastritis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [гиперацидный гастрит]
+            (*<-lang_ru;;*);
+          [hyperacid gastritis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гиперацидный гастрит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/hyperacid_gastritis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+hyperacid_gastritis 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(гиперацидный гастрит)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://statement/hyperacid_gastritis.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+hyperacid_gastritis=> nrel_symptom: 
+sore;;
+
+hyperacid_gastritis=>causes_of_development:
+stress;;
+
+causes_of_development
+    <-sc_node_norole_relation;
+    <- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+    => nrel_main_idtf:
+          [причины развития*]
+            (*<-lang_ru;;*);
+          [causes_of_development*]
+            (* <- lang_en;;*);;
+
+nrel_symptom
+ <-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[симптом*]
+	(* <- lang_ru;;	*);
+        [symptom*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (симптом)] (* <- lang_ru;; *);; 
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/nrel_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+            
