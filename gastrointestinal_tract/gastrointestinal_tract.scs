@@ -1,0 +1,439 @@
+esophagus
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [пищевод]
+            (*<-lang_ru;;*);
+          [esophagus]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (пищевод)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/esophagus.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+esophagus
+
+<- rrel_key_sc_element: ... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf:
+        [Утв. (пищевод)] (* <- lang_ru;; *);;
+    
+        <= nrel_sc_text_translation: ... 
+        (*
+            -> rrel_example: "file://statement/esophagus.html" (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+        *);;
+*);;
+
+
+stomach
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [желудок]
+            (*<-lang_ru;;*);
+          [stomach]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (желудок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/stomach.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+stomach
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (желудок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/stomach.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+duodenum
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [двенадцатиперстная кишка]
+            (*<-lang_ru;;*);
+          [duodenum]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (двенадцатиперстная кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/duodenum.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+duodenum
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (двенадцатиперстная кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/duodenum.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+gallbladder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [желчный пузырь]
+            (*<-lang_ru;;*);
+          [gallbladder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (желчный пузырь)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/gallbladder.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+gallbladder
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (желчный пузырь)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/gallbladder.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+liver
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [печень]
+            (*<-lang_ru;;*);
+          [liver]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (печень)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/liver.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+liver
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (печень)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/liver.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+pancreas
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [поджелудочная железа]
+            (*<-lang_ru;;*);
+          [pancreas]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (поджелудочная железа)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/pancreas.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+pancreas
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (поджелудочная железа)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/pancreas.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+small_intestine
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [тонкий кишечник]
+            (*<-lang_ru;;*);
+          [small intestine]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тонкий кишечник)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/small_intestine.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+small_intestine
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (тонкий кишечник)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/small_intestine.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+caecum
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слепая кишка]
+            (*<-lang_ru;;*);
+          [caecum]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слепая кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/caecum.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+caecum
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (слепая кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/caecum.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+colon
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [толстая кишка]
+            (*<-lang_ru;;*);
+          [colon]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (толстая кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/colon.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+colon
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (толстая кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/colon.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+sigmoid_colon
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сигмовидная кишка]
+            (*<-lang_ru;;*);
+          [sigmoid colon]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сигмовидная кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/sigmoid_colon.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+sigmoid_colon
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (сигмовидная кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/sigmoid_colon.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+
+rectum
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [прямая кишка]
+            (*<-lang_ru;;*);
+          [rectum]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (прямая кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://definition/rectum.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+rectum
+
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (прямая кишка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://statement/rectum.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
